@@ -3,9 +3,9 @@ function AddCards({ dogs }) {
 
     return (
         <>
-            {
-                dogs.map((dog) => {
-                    return (
+            {dogs.name}
+            {/* {dogs.map((dog) => (
+                    
                         <>
                             <img src="https://picsum.photos/id/237/200/300" className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -14,10 +14,7 @@ function AddCards({ dogs }) {
                                 <a href="#" className="btn btn-danger">Adopt-me! OR Fund My Life!</a>
                             </div>
                         </>
-                    )
-
-                })
-            }
+                    ))} */}
         </>
     );
 };
