@@ -1,12 +1,12 @@
 function Jumbotron() {
     return (
-        <div className="jumbotron bg-secondary">
-            <h1 className="display-4">Hello, world!</h1>
-            <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr className="my-4"></hr>
-                <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p>
+        <div className="jumbotron  my-4 mx-4 bg-light" style={{fontFamily:"i Iruse"}}v>
+            <h1 className="display-4">Be Their Hero: Join the Animal Rescue Movement Today!"</h1>
+            <p className="lead">Join us in making a difference! Every day, countless animals are in need of rescue and care. From abandoned pets to wildlife facing habitat loss, our efforts can change their lives. Together, let's be their voice, providing shelter, medical care, and love. Join our mission to rescue, rehabilitate, and release these precious creatures back into the wild or into loving homes. Together, we can make a world where every animal has a chance to thrive. Donate, volunteer, or adopt today and be a hero for animals in need!</p>
+            <hr className="my-4" />
+                <p>Transforming Lives, One Rescue at a Time!</p>
                 <p className="lead">
-                    <a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    <a className="btn btn-danger btn-lg" href="#" role="button">Help!</a>
                 </p>
         </div>
     );
